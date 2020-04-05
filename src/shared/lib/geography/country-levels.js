@@ -3,7 +3,7 @@ import path from 'path';
 import { readJSON } from '../fs.js';
 import * as geography from './index.js';
 
-const LEVELS = ['iso1', 'iso2', 'fips'];
+const LEVELS = ['iso1', 'iso2', 'fips', 'br_muni'];
 
 const levelCache = {};
 const countryLevelsDir = path.dirname(require.resolve('country-levels/license.md'));
